@@ -1,12 +1,12 @@
 import java.util.Objects;
 
-public class Departement {
+public class Departement implements Comparable<Departement> {
     int id;
     String nom;
     int nb_employes;
 
     public Departement(){
-    };
+    }
 
     public Departement(int id, String nom, int nb_employes) {
         this.id = id;
